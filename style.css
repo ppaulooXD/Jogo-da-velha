@@ -1,0 +1,17 @@
+*{font-family: calibri; font-size: 30px;}
+#jogo{
+    margin: 0 auto;
+    display: grid;  
+    grid-template-columns: 120px 120px 120px;  
+    grid-template-rows: 120px 120px 120px;
+}
+
+#jogo div {
+    background-color: black;
+    border: 3px solid cyan;
+    font-size: 80px;
+    color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    padding-top	: 10px;
+    text-align: center;
+}
